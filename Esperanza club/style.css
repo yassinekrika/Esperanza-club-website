@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+body {
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    width: 60%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.desc {
+    width: 100%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+}
+
+p {
+    margin: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    color: white;
+}
+
+.container .main-logo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.container .btns{ 
+    width: 100%;
+}
+.container .btns .btn {
+    cursor: pointer;
+    margin-top: 16px;
+    text-decoration: none;
+    border: 2px solid rgb(9, 190, 196);
+    border-radius: 30px;
+    background-color: white;
+    font-weight: 500;
+    box-shadow: 8px 8px rgb(9 190 196);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.05s ease all;
+}
+.container .btns .btn:hover {
+    margin-top: 20px;
+    margin-left: 4px;
+    margin-bottom: -4px;
+    box-shadow: 4px 4px rgb(9 190 196);
+}
+.container .btns .btn .arrow {
+    width: 30px;
+    margin-right: 16px;
+    background-color: white;
+    padding: 3px;
+    opacity: 0;
+    transition: 0.05s ease all;
+}
+.container .btns .btn .arrow:hover {
+    border-radius: 50%;
+    background-color: rgba(92, 92, 92, 0.212);
+}
+.container .btns .btn:hover .arrow {
+    opacity: 1;
+}
+
+.container .btns .btn a {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+.container .btns .btn .small-logo {
+    width: 40px;
+    margin-left: 8px;
+    border-radius: 50%;
+    
+    background-color: white;
+}
